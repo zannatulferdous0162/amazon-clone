@@ -223,4 +223,15 @@ ul a{
     
 }
 
-     
+/* =========================
+       Media Queries
+=========================== */
+
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .navbar {
+        /* Apply some styles */
+        background-color: #fff;
+        color: #0f1111;
+      }
+  }
